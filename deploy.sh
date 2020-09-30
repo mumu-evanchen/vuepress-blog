@@ -16,7 +16,7 @@ git push
 npm run docs:build
 
 # 进入生成的dist文件夹
-cd ./dist
+cd docs/.vuepress/dist
 
 git init
 git add -A
@@ -26,7 +26,7 @@ git commit -m $1 # 提交到历史区，$1 为运行 sh 时的第一个参数
 # echo 'www.example.com' > CNAME
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:mumu-evanchen/vuepress-blog.github.io.git master
+# git push -f git@github.com:mumu-evanchen/vuepress-blog.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:mumu-evanchen/vuepress-blog.git master:gh-pages

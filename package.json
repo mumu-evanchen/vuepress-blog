@@ -4,7 +4,11 @@
   "description": "Evan's blog",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "push": "bash deploy.sh",
+    "commit": "bash commit.sh"
   },
   "main": "index.js",
   "author": "Evan chen",

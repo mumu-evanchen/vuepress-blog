@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/vuepress-blog/',
   title: 'Hello Vuepress',
   description: 'an example',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
