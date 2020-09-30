@@ -6,7 +6,7 @@ set -e
 # 源代码提交到 master 分支
 git add .
 
-git commit -m $1
+git commit -m 'deploy'
 
 git pull
 
@@ -20,7 +20,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m $1 # 提交到历史区，$1 为运行 sh 时的第一个参数
+git commit -m 'deploy' # 提交到历史区，$1 为运行 sh 时的第一个参数
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
